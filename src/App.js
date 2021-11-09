@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/css/style.css';
+import AboutSection from './LandingPage/AboutSection';
+import BuyStrip from './LandingPage/BuyStrip';
+import Footer from './LandingPage/Footer';
+import Header from './LandingPage/Header';
+import HeroSection from './LandingPage/HeroSection';
+import RoadMap from './LandingPage/RoadMap';
+import SpecSection from './LandingPage/SpecSection';
+import Team from './LandingPage/Team';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <HeroSection/>
+      <AboutSection/>
+      <BuyStrip/>
+      <SpecSection/>
+      <RoadMap/>
+      <SpecSection/>
+      <Team/>
+      <Footer/>
+    </>
   );
 }
 

@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.heroSectionDiv .container-fluid{
+    background-color: black;
+}
+
+
+.topBar .navbar{
+    background-color: rgba(0, 0, 0) !important;
+    position: fixed;
+    width: 100%;
+}
+
+.topBar .navbar .navbar-brand{
+    color: #fff;
+    font-weight: 600;
+}
+
+.topBar .navbar .nav-link{
+    color: #fff;
+    font-size: 14px;
+}
+
+.topBar .navbar .nav-link:hover{
+    color: #fff;
+    opacity: .7;
+}
+
+
+.topSocial-link{
+    color: #fff;
+}
+
+.topSocial-link:hover{
+    opacity: .7;
+    color: #fff;
+}
+
+.aboutSectionDiv {
+    background-color: black;
+    padding: 50px;
+}
+
+.aboutContent{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.buyStripDiv{
+    background-color: #000;
+    padding: 40px;
+}
+
+.buyStripLeft h3{
+    color: goldenrod;
+}
+
+.buyStripLeft p{
+    color: #fff;
+}
+
+.buyStripRight p{
+    color: #808080;
+    font-size: 14px;
+}
+
+.buyStripRow{
+    background-color: goldenrod;
+    padding: 20px;
+}
+
+.specSectionDiv{
+    background-color: black;
+    padding: 50px;
+}
+
+.specContent{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.roadMapDiv{
+    background-color: black;
+}
+
+.roadMapHead{
+    color: #fff;
+}
+
+.roadMapList{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.roadMapList ul {
+    list-style-type: none;
+}
+
+.buyTextDiv{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buyTextButton{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buyTextButton button{
+    background-color: #000;
+    border: #000;
+}
+
+.buyStripLeft{
+    padding-bottom: 40px;
+}
+
+.teamDiv{
+    background-color: #000;
+    padding: 50px;
+}
+.teamDiv .teamSectionHead{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.teamMember h4{
+    color: #fff;
+    text-align: center;
+}
+
+.footerDiv{
+    padding: 20px;
+    background-color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.footerDetails p {
+    margin: 0%;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #ff796f;
+}
+
+.footerSocial a{
+    color: aliceblue;
+}
+
+.footerSocial a:hover{
+    opacity: .7;
+}

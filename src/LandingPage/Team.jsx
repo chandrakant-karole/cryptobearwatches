@@ -10,32 +10,32 @@ export default function Team() {
                 <Row>
                     <div className="teamSectionHead">
                         <h2>Meet Our Team</h2>
-                        <p>CryptoBear Watch Club is the brainchild of Xxxxxxxxx, a game-changing NFT enterprise based in Xxxxxxxxxx. The crew comprises entrepreneurs, developers and watch connoisseurs with a wealth of experience in the NFT space.</p>
+                        <p>CryptoBear Watch Club is the brainchild of OtharenBear, founder, CEO, digital morpheus and the lynchpin. Headquartered in Dubai – United Arab Emirates, The crew comprises entrepreneurs, developers, content specialists and watch connoisseurs with a wealth of experience in the NFT space.</p>
                     </div>
                 </Row>
                 <Row>
                     <Col lg={3}>
                         <div className="teamMember">
                             <Image src={Male} fluid/>
-                            <h4>Name</h4>
+                            <h4>OtharenBear – Founder & CEO</h4>
                         </div>
                     </Col>
                     <Col lg={3}>
                         <div className="teamMember">
                             <Image src={Male} fluid/>
-                            <h4>Name</h4>
+                            <h4>JDcodedBear – Design Director</h4>
                         </div>
                     </Col>
                     <Col lg={3}>
                         <div className="teamMember">
                             <Image src={Male} fluid/>
-                            <h4>Name</h4>
+                            <h4>JediKodaBear – Project Manager</h4>
                         </div>
                     </Col>
                     <Col lg={3}>
                         <div className="teamMember">
                             <Image src={Male} fluid/>
-                            <h4>Name</h4>
+                            <h4>ShakesBear – Content Manager</h4>
                         </div>
                     </Col>
                 </Row>

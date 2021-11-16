@@ -1,28 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Righteous', cursive;
 }
+
+/* ======================================== Navbar ============================================== */
 
 .heroSectionDiv .container-fluid{
     background-color: black;
 }
 
+.heroSection p{
+    letter-spacing: 1px;
+}
 
 .topBar .navbar{
     background-color: rgba(0, 0, 0) !important;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 
 .topBar .navbar .navbar-brand{
     color: #fff;
-    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 26px;
+    animation: change 2s infinite linear;
+}
+
+@keyframes change {
+    0%{color: #ead6fa;}
+    20%{color: #b63eb0;}
+    40%{color: #18f6af;}
+    60%{color: #18f6af;}
+    80%{color: #b63eb0;}
+    100%{color: #ead6fa;}
 }
 
 .topBar .navbar .nav-link{
     color: #fff;
     font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .topBar .navbar .nav-link:hover{
@@ -40,6 +61,49 @@
     color: #fff;
 }
 
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* ======================================== Navbar ============================================== */
+/* ======================================== Hero Section ============================================== */
+.buyNowBtn{
+    background-color: #fff0;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    font-size: 22px;
+    padding: 5px 15px;
+    z-index: 1;
+}
+
+.buyNowBtn:hover{
+    color: #fff;
+    box-shadow: inset 0px 0px 20px 0px #851dda;
+}
+
+.heroSectionDiv .container-fluid{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hand-watch.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.heroSection{
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: flex-start;
+    margin-left: 80px;
+}
+/* ======================================== Hero Section ============================================== */
+
+/* ======================================== About Section ============================================== */
+
 .aboutSectionDiv {
     background-color: black;
     padding: 50px;
@@ -53,7 +117,18 @@
     justify-content: center;
 }
 
+.aboutContent h2{
+    color: #a78bff;
+    letter-spacing: 1px;
 
+}
+
+.aboutContent p{
+    letter-spacing: 1px;
+}
+
+/* ======================================== About Section ============================================== */
+/* 
 .buyStripDiv{
     background-color: #000;
     padding: 40px;
@@ -75,8 +150,8 @@
 .buyStripRow{
     background-color: goldenrod;
     padding: 20px;
-}
-
+} */
+/* ======================================== Story Section ============================================== */
 .specSectionDiv{
     background-color: black;
     padding: 50px;
@@ -90,8 +165,18 @@
     justify-content: center;
 }
 
+.specContent h2{
+    color: #a78bff;
+}
+
+.specContent p{
+    letter-spacing: 1px;
+}
+
+/* ======================================== Story Section ============================================== */
+/* ======================================== RoadMap Section ============================================== */
 .roadMapDiv{
-    background-color: black;
+    background-color: black !important;
 }
 
 .roadMapHead{
@@ -109,6 +194,9 @@
 .roadMapList ul {
     list-style-type: none;
 }
+
+/* ======================================== RoadMap Section ============================================== */
+
 
 .buyTextDiv{
     color: #fff;
@@ -134,6 +222,7 @@
     padding-bottom: 40px;
 }
 
+/* ======================================== Team Section ============================================== */
 .teamDiv{
     background-color: #000;
     padding: 50px;
@@ -144,10 +233,16 @@
     padding-bottom: 20px;
 }
 
+.teamMember{
+    text-align: center;
+}
+
 .teamMember h4{
     color: #fff;
     text-align: center;
 }
+/* ======================================== Team Section ============================================== */
+/* ======================================== Footer Section ============================================== */
 
 .footerDiv{
     padding: 20px;
@@ -177,4 +272,123 @@
 
 .footerSocial a:hover{
     opacity: .7;
+}
+/* ======================================== Footer Section ============================================== */
+.roadMap_row{
+    display: flex;
+}
+
+.roadMap_step{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadMap_circle{
+    background: #5f5fc4;
+    padding: 40px 20px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.roadMap_content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.faqDiv{
+    background-color: #000;
+}
+
+.faqDiv h2{
+    color: #a78bff;
+}
+
+.whatNextDiv{
+    background-color: #000;
+}
+
+.whatNextDiv h2{
+    color: #a78bff;
+}
+
+.whatNextContent{
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.faqDiv .accordion-item{
+    background-color: #000;
+}
+
+.faqDiv .accordion-body {
+    border: 1px solid #7f67d7;
+    color: #b8b8b8;
+}
+
+.faqDiv .accordion-button{
+    color: #fff;
+    background-color: #7F67D7;
+    letter-spacing: 1px;
+}
+
+.faqDiv .accordion-button::after {
+    filter: invert(1) brightness(50);
+}
+
+.faqDiv .accordion-button:focus{
+    box-shadow: none;
+}
+
+.teamSectionHead h2{
+    color: #a78bff;
+}
+
+.teamSectionHead p{
+    color: #b8b8b8;
+    letter-spacing: 1px;
+}
+
+/* =========================== For Mobile Devices ============================= */
+@media screen and (max-width:1200px){
+    .roadMap_circle{
+        padding: 28px 7px;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .roadMap_row{
+        flex-wrap: wrap;
+    }
+    .roadMap_step{
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .roadMap_content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .topBar .navbar .navbar-brand{
+        font-size: 21px;
+    }
+
+    .heroSection{
+        width: 95%;
+        margin-left: 15px;
+    }
+
+    .teamDiv{
+        padding: 10px;
+    }
+
+    .aboutSectionDiv .container .row{
+        flex-direction: column-reverse;
+    }
+    
 }

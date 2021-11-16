@@ -1,25 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/style.css';
-import AboutSection from './LandingPage/AboutSection';
-import BuyStrip from './LandingPage/BuyStrip';
-import Footer from './LandingPage/Footer';
-import Header from './LandingPage/Header';
-import HeroSection from './LandingPage/HeroSection';
-import RoadMap from './LandingPage/RoadMap';
-import SpecSection from './LandingPage/SpecSection';
-import Team from './LandingPage/Team';
+// import './assets/css/style-sample.css';
+import Landing from './Landing';
+// import Sample from './Sample';
+// import { Switch, BrowserRouter as Routes,  Route } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <Header/>
-      <HeroSection/>
-      <AboutSection/>
-      <BuyStrip/>
-      <SpecSection/>
-      <RoadMap/>
-      <SpecSection/>
-      <Team/>
-      <Footer/>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" >
+            <Landing />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </>
   );
 }

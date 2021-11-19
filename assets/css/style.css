@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #000;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+body{
+    background-color: #000;
+}
+/* Entry page Header  */
+.entry_page_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry_page_head .social_link{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.site_name {
+    margin-left: 20%;
+    font-size: 40px;
+    color: #fff;
+}
+
+.entry_page_headDiv .social_div {
+    position: absolute;
+    top: 41px;
+    right: 122px;
+    z-index: 6;
+    color: #fff;
+}
+
+.entry_page_headDiv .social_link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    color: #fff;
+}
+
+.entry_page_headDiv .social_link a{
+    color: #fff;
+}
+
+.entry_hero_section{
+    position: relative;
+    text-align: center;
+}
+
+.entry_contentDiv{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+/* -------------- */
+.entry_contentDiv{
+    display: flex;
+    width: 400px;
+    background-color: #000;
+}
+
+.entry_content{
+    width: 300px;
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+.entry_content h2{
+    color: #fff;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.7em;
+}
+
+.entry_content a{
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    border: none;
+    background-color: #bfc500;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.vertical_scroll_text p{
+    font-size: 12px;
+    color: #d5d5d5;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.entry_para_content{
+    background-color: #000;
+    color: #fff;
+    padding: 55px 0px;
+    font-size: 1em;
+}
+
+.footer_rightDiv{
+    text-align: right;
+}
+
+.footer_social_link{
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    align-items: center;
+    margin-left: auto;
+    padding: 5px;
+    color: #fff;
+}
+
+.footer_email h4{
+    color: #fff;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.footer_rightDiv p{
+    color: #fff;
+    margin: 0;
+    font-size: 11px;
+}
+
+.footer_rightDiv a{
+    color: #bfc500;
+    font-size: 10px;
+}
+
+.footer_site_name{
+    font-size: 40px;
+    color: #fff;
+}
+
+.footer_rightDiv .footer_href{
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer_rightDiv .footer_href:hover{
+    color: #bfc500;
+}
+
+/* ========================================Home ================================================== */
+
+.home_Nav{
+    background-color: #000;
+}
+
+.home_Nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 9px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    caret-color: transparent;
+    text-align: end;
+    transition: .15s;
+}
+
+.home_Nav .nav-item .nav-link:hover{
+    color: #bfc500;
+}
+
+.home_Nav .nav-item .nav-link.nav_social{
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.home_Nav .navbar-nav{
+    width: 80%;
+    justify-content: space-around;
+}
+
+.home_heroDiv{
+    background-color: #000;
+}
+
+.mainfooterDiv{
+    background-color: #000;
+}
+
+.home_about_content{
+    color: #fff;
+}
+
+.fair_distribution h2{
+    color: #bfc500;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+.fair_distribution h4, p{
+    color: #fff;
+}
+.fair_distribution h4{
+    font-size: 1.15em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.fair_dis_rightContent{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fair_dis_rightContent p{
+    color: grey;
+    margin: 0px;
+    font-size: .8em;
+    font-weight: 200;
+    font-style: italic;
+}
+/* ----------------------------- */
+.buyStripContainer{
+    background: #000;
+}
+
+.buy_stripDiv{
+    background-color: #bfc500;
+    display: flex;
+}
+
+.buy_strip1, .buy_strip2, .buy_strip3{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    width: 34%;
+}
+
+.buy_strip1 h2{
+    color: #000;
+    background: transparent;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.buy_strip2 p{
+    color: #000;
+    background: transparent;
+    margin: 0%;
+}
+
+.buy_strip3 a{
+    background-color: #000;
+    color: #bfc500;
+    padding: 10px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.specsContentArea h2{
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.specsContentArea{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+/* =-------------------------- */
+.club_inner{
+    text-align: center;
+
+}
+.club_inner p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.club_contentHead h2{
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.bathroomContent{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.bathroomContent h2{
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* ------------------------------------------------- */
+
+.roadMapContentTop h2{
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+    color: #fff;
+}
+
+.roadMap_phaseDiv ul {
+    color: #fff;
+}
+
+.roadMap_phaseDiv ul li {
+    display: flex;
+}
+.roadMap_phaseDiv ul li .phase_content{
+    width: 80%;
+    font-size: 14px;
+}
+
+.roadMap_phaseDiv ul li .phase_stage{
+    margin-right: 20px;
+    color: #bfc500;
+    font-size: 14px;
+}
+
+
+/* ==========================================/ */
+.coummunityContent h2{
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+    color: #fff;
+}
+
+.communityRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    text-align: center;
+}
+
+.communityRight a{
+   color: #000;
+   background-color: #bfc500;
+   padding: 15px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-style: italic;
+   font-weight: bold; 
+}
+
+.teamContent h2{
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.teamContent h5{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.teamContent h5 .team_name{
+    color: #bfc500;
+    /* font-weight: 900; */
+    /* font-size: 17px; */
+    text-transform: uppercase;
+}
+
+.teamCollage{
+    display: flex;
+}
+
+.dropdown-menu.show{
+    background-color: #000;
+}
+
+.dropdown-item{
+    color: aliceblue;
+    font-size: 9px;
+    font-style: italic;
+}
+
+.dropdown-item:hover{
+    color: #bfc500;
+    background: #000;
+}
+
+.faqHead h2{
+    color: #fff;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+.accordion-button{
+    background: #bfc500;
+    color: #000;
+    font-weight: 700;
+}
+
+.accordion-body{
+    background: #272626;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed){
+    color: #000;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.whatNextDiv{
+    color: #fff;
+    text-align: center;
+}
+
+/* ================================== */
+.entryNavbarContainer{
+    background: #0000006b;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.entryNavbarContainer img{
+    background: transparent;
+    width: 290px;
+}
+
+.footer_email input{
+    color: #bfc500;
+}
+
+.form-control:focus{
+    color: #bfc500;
+}
+
+
+/* ============================== */
+.navbar-brand img{
+    width: 160px;
+}
+
+@media screen and (max-width:991px) {
+    .entry_page_headDiv .social_div{
+        display: none;
+    }
+    .footer_social_link{
+        margin: 20px 0px;
+        width: auto;
+    }
+    .footer_rightDiv{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .footer_site_name{
+        font-size: 25px;
+    }
+    .buy_stripDiv{
+        flex-wrap: wrap;
+    }
+
+    .entry_contentDiv{
+        width: auto;
+    }
+    .entry_hero_section{
+        height: 550px;
+    }
+    .entryNavbarContainer img{
+        width: 190px;
+    }
+    .footer_rightDiv{
+        text-align: center;
+    }
+
+}
+
+
+/* ================================================================================================ */
+.email-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.email-label {
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+}
+
+.email-flex {
+    padding-top: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email-form {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.email-input-text {
+    width: 100%;
+}
+
+.email-submit {
+    background-color: #4b4a4a;
+    border: 0ch;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    caret-color: transparent;
+    transition: .3s;
+}
+
+
+input {
+    background-color: #272626;
+    border: 0ch;
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    color: #fff;
+}
+
+input {
+    caret-color: auto;
+}
+
+::placeholder {
+    color:#fff;
+    font-style: italic;
+    font-size: 12px;
+
+  }
+
+@media only screen and (min-width: 992px){
+
+.email-container {
+    padding: 0%;
+    text-align: left;
+}
+}
+
+@media only screen and (min-width: 992px){
+
+.email-label {
+    font-weight: 600;
+    font-size: 13px;
+    font-style: italic;
+    color: #fff;
+}
+
+}
+
+@media only screen and (min-width: 992px){
+.email-flex {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+}
+}
+
+@media only screen and (min-width: 992px){
+.email-form {
+    margin: unset;
+}
+}
+
+@media only screen and (min-width: 992px){
+.email-input-text {
+    padding: 2px;
+    padding-left: 10px;
+}
+}
+
+@media only screen and (min-width: 992px){
+.email-submit {
+    padding: 10px;
+    line-height: 0;
+}
+.email-form {
+    margin: unset;
+}
+.email-input-text {
+    padding: 2px;
+    padding-left: 10px;
+}
+}
+
+.last-line {
+    border-bottom: 15px solid #bfc500;
+    display: block;
+    padding-top: 30px;
+    max-width: 100%;
+}
+@media only screen and (min-width: 992px){
+.last-line {
+    padding-top: 0%;
+}
+}
+
+.home_Nav .navbar{
+    background: #000 !important;
+}
+
+.home_about_content h2{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.8em;
+}
+
+.buyStripContainer .container{
+    border-bottom: 1px solid #3e3d3d;
+    padding-bottom: 30px;
+}
+
+.specsContainer .container{
+    border-bottom: 1px solid #3e3d3d;
+}
+.club_contentHead{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.clubContainer .container{
+    border-bottom: 1px solid #3e3d3d;
+}
+
+.whatNextDiv h2{
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.bathroomContainer .container{
+    border-bottom: 1px solid #3e3d3d;
+}
+
+.roadMapContainer .container{
+    border-bottom: 1px solid #3e3d3d;
+}
+
+.commmunity_toolsContainer .container{
+    border-bottom: 1px solid #3e3d3d;
+    padding-bottom: 25px 0px;
+}
+
+.main_Container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.home_hero_section{
+    text-align: center;
+}
+
+@media screen and (max-width:991px) {
+    .home_Nav .navbar-nav{
+        width: 100%;
+        text-align: end;
+    }
+}
+
+@media screen and (max-width:425px){
+    .buy_stripDiv .buy_strip1, .buy_strip2, .buy_strip3{
+        width: 100%;
+    }
+}
+
+.entry_hero_section{
+    padding: 40px 0px;
+}
+
+.inner_collage{
+    padding: 5px;
+    border-radius: 15px;
+}
+
+input:focus-visible{
+    outline: none;
+}
+
+@media screen and (max-width:991px) {
+    .dropdown-menu.show{
+        text-align: end;
+    }
+    .home_Nav .nav-item .nav-link.nav_social{
+        display: none;
+    }
+    .footerIndex .footerIndexCol1{
+        order: 2;
+    }
+    .footerIndex .footerIndexCol2{
+        order: 1;
+    }
+    .footerIndex .footerIndexCol3{
+        order: 3;
+    }
+
+    .home_about_content p{
+        text-align: justify;
+    }
+
+    .fair_distribution p{
+        text-align: justify;
+    }
+
+    .fair_dis_rightContent p{
+        text-align: justify;
+    }
+    
+    .specsContentArea p{
+        text-align: justify;
+    }
+
+    .club_contentHead p{
+        text-align: justify;
+    }
+
+    .bathroomContent p{
+        text-align: justify;
+    }
+    .roadMapContentTop p{
+        text-align: justify;
+    }
+
+    .roadMap_phaseDiv p{
+        text-align: justify;
+    }
+
+    .coummunityContent p{
+        text-align: justify;
+    }
+
+    .teamContent p{
+        text-align: justify;
+    }
+    .buy_strip2 p{
+        text-align: justify;
+    }
+    .club_inner p{
+        text-align: justify !important;
+    }
+    .phase_content{
+        text-align: justify;
+    }
+    .entry_para_content{
+        text-align: justify;
+    }
+    
+}
+@media screen and (max-width:425px){
+    .mainfooterDiv .row{
+        padding: 5px !important;
+    }
+    .club_inner p{
+        text-align: left;
+    padding-left: 20px;
+    }
+    .club_inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+    @media screen and (max-width:525px) {
+        .roadMapContentTop h2{
+            font-size: 2em;
+        }
+        .entry_content h2{
+            text-align: left;
+        }
+
+        .buy_stripDiv {
+            flex-wrap: wrap;
+        }
+
+    }

@@ -14,7 +14,7 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
-                            className="me-auto my-2 my-lg-0"
+                            className=""
                             style={{ maxHeight: '400px' }}
                             navbarScroll
                         >

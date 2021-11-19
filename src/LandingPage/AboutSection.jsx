@@ -10,7 +10,7 @@ export default function AboutSection() {
                     <Row>
                         <Col lg={8}>
                             <div className="aboutContent">
-                                <h2>ABOUT</h2>
+                                <h2>WELCOME TO CRYPTOBEAR WATCH CLUB</h2>
                                 <p>CryptoBear Watch Club is a collection of 10,000 exclusive NFT collectibles that will live on the Ethereum Blockchain. The traits are programatically assigned but manually drawn giving each artwork a distinct identity and lending added value to the CryptoBear Watch Club community.</p>
                                 <p>Your CryptoBear watch doubles as your club membership, unlocks exclusive perks and grants you preferential access to events that celebrate the bearish nature of our community.</p>
                                 <h2>SPECS</h2>

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../src/LandingPage/Header'
 import HeroSection from '../src/LandingPage/HeroSection'
 import AboutSection from '../src/LandingPage/AboutSection'
-// import BuyStrip from '../src/LandingPage/BuyStrip'
+import BuyStrip from '../src/LandingPage/BuyStrip'
 import SpecSection from '../src/LandingPage/SpecSection'
 import Team from '../src/LandingPage/Team'
 import Footer from '../src/LandingPage/Footer'
@@ -14,11 +14,10 @@ export default function Landing() {
         <>
             <Header />
             <HeroSection />
-            {/* <BuyStrip /> */}
             <AboutSection />
+            <BuyStrip />
             <SpecSection />
             <RoadMap />
-            {/* <SpecSection /> */}
             <Team />
             <Faq/>
             <WhatNext/>

@@ -1,13 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* @font-face {
+    font-family: 'monument_extendedregular';
+    src: url('monumentextended-regular-webfont.woff2') format('woff2'),
+         url('monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'monument_extendedultrabold';
+    src: url('monumentextended-ultrabold-webfont.woff2') format('woff2'),
+         url('monumentextended-ultrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    background-color: #000;
+    background-color: #F5FBEF;
     /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'monument_extendedregular'; */
+    /* font-family: 'monument_extendedultrabold'; */
 }
 body{
-    background-color: #000;
+    background-color: #F5FBEF;
 }
 /* Entry page Header  */
 .entry_page_head{
@@ -45,7 +68,11 @@ body{
 }
 
 .entry_page_headDiv .social_link a{
-    color: #fff;
+    color: #4D3E42;
+}
+
+.entry_page_headDiv .social_link a:hover{
+    color: #92C040;
 }
 
 .entry_hero_section{
@@ -62,8 +89,8 @@ body{
 /* -------------- */
 .entry_contentDiv{
     display: flex;
-    width: 400px;
-    background-color: #000;
+    width: 347px;
+    /* background-color: #000; */
 }
 
 .entry_content{
@@ -72,8 +99,9 @@ body{
     border-bottom: 1px solid #fff;
 }
 .entry_content h2{
-    color: #fff;
-    font-style: italic;
+    font-family: 'monument_extendedultrabold';
+    color: #4D3E42;
+    /* font-style: italic; */
     font-weight: 900;
     font-size: 1.7em;
 }
@@ -85,7 +113,7 @@ body{
     width: 100%;
     justify-content: center;
     border: none;
-    background-color: #bfc500;
+    background-color: #92C040;
     font-weight: 700;
     padding: 15px;
     border-radius: 5px;
@@ -94,7 +122,7 @@ body{
 
 .vertical_scroll_text p{
     font-size: 12px;
-    color: #d5d5d5;
+    color: #4D3E42;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-style: italic;
@@ -102,9 +130,10 @@ body{
 }
 
 .entry_para_content{
-    background-color: #000;
-    color: #fff;
-    padding: 55px 0px;
+    /* background-color: #000; */
+    font-family: 'monument_extendedregular';
+    color: #4D3E42;
+    padding: 13px 0px;
     font-size: 1em;
 }
 
@@ -129,28 +158,33 @@ body{
 }
 
 .footer_rightDiv p{
-    color: #fff;
+    color: #000;
     margin: 0;
     font-size: 11px;
 }
 
 .footer_rightDiv a{
-    color: #bfc500;
+    color: #000;
     font-size: 10px;
 }
 
 .footer_site_name{
     font-size: 40px;
     color: #fff;
+    text-align: center;
+}
+
+.footer_site_name img{
+    width: 175px;
 }
 
 .footer_rightDiv .footer_href{
     font-size: 15px;
-    color: #fff;
+    color:#000;
 }
 
 .footer_rightDiv .footer_href:hover{
-    color: #bfc500;
+    color: #92C040;
 }
 
 /* ========================================Home ================================================== */
@@ -159,19 +193,34 @@ body{
     background-color: #000;
 }
 
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #000;
+}
+
 .home_Nav .nav-item .nav-link{
-    color: #fff;
-    font-size: 9px;
-    font-style: italic;
-    font-weight: 500;
-    letter-spacing: 1.2px;
-    caret-color: transparent;
-    text-align: end;
+    color: #000;
+    font-size: 14px;
+    /* font-style: italic; */
+    /* font-weight: 500; */
+    /* letter-spacing: 1.2px; */
+    /* caret-color: transparent; */
+    /* text-align: end; */
     transition: .15s;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
 }
 
 .home_Nav .nav-item .nav-link:hover{
-    color: #bfc500;
+    color: #92C040;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: #92C040 !important;
 }
 
 .home_Nav .nav-item .nav-link.nav_social{
@@ -181,32 +230,37 @@ body{
 }
 
 .home_Nav .navbar-nav{
-    width: 80%;
+    width: 90%;
     justify-content: space-around;
 }
 
 .home_heroDiv{
-    background-color: #000;
+    background-color: transparent;
 }
 
 .mainfooterDiv{
-    background-color: #000;
+    background-color: transparent;
 }
 
 .home_about_content{
     color: #fff;
 }
 
+.home_about_content p{
+    color: #4D3E42;
+}
+
 .fair_distribution h2{
-    color: #bfc500;
-    font-style: italic;
-    font-weight: 600;
+    font-family: 'monument_extendedultrabold';
+    color: #000;
+    /* font-style: italic; */
+    font-weight: 900;
     font-size: 1.6em;
     text-transform: uppercase;
 }
 
-.fair_distribution h4, p{
-    color: #fff;
+.fair_distribution p{
+    color: #000;
 }
 .fair_distribution h4{
     font-size: 1.15em;
@@ -229,7 +283,9 @@ body{
 }
 /* ----------------------------- */
 .buyStripContainer{
-    background: #000;
+    background: #92C040;
+    margin-top: 50px;
+    padding: 15px;
 }
 
 .buy_stripDiv{
@@ -272,10 +328,12 @@ body{
 }
 
 .specsContentArea h2{
-    color: #fff;
+    color: #000;
     font-size: 1.7em;
     font-weight: 800;
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: 'monument_extendedultrabold';
+
 }
 
 .specsContentArea{
@@ -292,15 +350,36 @@ body{
 
 }
 .club_inner p{
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
 
-.club_contentHead h2{
-    color: #fff;
-    font-size: 1.7em;
+.club_contentHead .h2_one{
+    /* font-family: 'monument_extendedultrabold'; */
+    font-family: 'monument_extendedregular';
+    color: #92C040;
+    font-size: 36px;
+    /* font-weight: 800; */
+    line-height: 1px;
+}
+
+.club_contentHead .h2_two{
+    font-family: 'monument_extendedultrabold';
+    color: #92C040;
+    font-size: 39px;
     font-weight: 800;
-    font-style: italic;
+}
+
+.bathroomContainer{
+    background: #4D3E42;
+}
+
+.bathroomContainer .container .row{
+    background: transparent;
+}
+
+.bathroomContainer .container .row .col-lg-6, .col-lg-4{
+    background: transparent;
 }
 
 .bathroomContent{
@@ -309,15 +388,35 @@ body{
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    background: transparent;
 }
 
-.bathroomContent h2{
+.bathroomContent .h2_one{
     color: #fff;
     font-size: 1.7em;
     font-weight: 800;
-    font-style: italic;
+    /* font-style: italic; */
+    background: transparent;
+    font-family: 'monument_extendedultrabold';
+    /* line-height: 1px; */
 }
 
+.bathroomContent .h2_two{
+    color: #92C040;
+    font-size: 2.6em;
+    font-weight: 800;
+    /* font-style: italic; */
+    background: transparent;
+    line-height: 39px;
+    font-family: 'monument_extendedultrabold';
+}
+.bathroomContent p{
+    color: #F5FBEF;
+}
+
+.bathroomRight img{
+    background: #4d3e42;
+}
 /* ------------------------------------------------- */
 
 .roadMapContentTop h2{
@@ -350,16 +449,19 @@ body{
 .coummunityContent h2{
     font-size: 1.7em;
     font-weight: 800;
-    font-style: italic;
-    color: #fff;
+    /* font-style: italic; */
+    color: #4D3E42;
+    font-family: 'monument_extendedultrabold';
+
 }
 
 .communityRight{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-around;
     height: 100%;
     text-align: center;
+    align-items: center
 }
 
 .communityRight a{
@@ -373,19 +475,21 @@ body{
 }
 
 .teamContent h2{
-    color: #fff;
+    color: #4D3E42;
     font-size: 1.7em;
     font-weight: 800;
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: 'monument_extendedultrabold';
+
 }
 
 .teamContent h5{
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
 }
 
 .teamContent h5 .team_name{
-    color: #bfc500;
+    color: #92C040;
     /* font-weight: 900; */
     /* font-size: 17px; */
     text-transform: uppercase;
@@ -396,54 +500,60 @@ body{
 }
 
 .dropdown-menu.show{
-    background-color: #000;
+    background-color: #f5fbef;
 }
 
 .dropdown-item{
-    color: aliceblue;
-    font-size: 9px;
-    font-style: italic;
+    /* color: aliceblue; */
+    font-size: 14px;
+    /* font-style: italic; */
 }
 
 .dropdown-item:hover{
-    color: #bfc500;
+    color: #fff;
     background: #000;
 }
 
 .faqHead h2{
-    color: #fff;
+    color: #4D3E42;
     font-weight: bolder;
-    font-style: italic;
-    text-align: center;
+    /* font-style: italic; */
+    /* text-align: center; */
+    font-family: 'monument_extendedultrabold';
+    font-size: 28px;
+
 }
 
 .accordion-button{
-    background: #bfc500;
-    color: #000;
+    background: #92C040;
+    color: #fff;
     font-weight: 700;
 }
 
 .accordion-body{
-    background: #272626;
+    background: #4d3e42;
     color: #fff;
 }
 
 .accordion-button:not(.collapsed){
-    color: #000;
+    color: #4D3E42;
+    background: #92c040;
 }
 
 .accordion-button:focus{
     box-shadow: none;
 }
 
-.whatNextDiv{
-    color: #fff;
-    text-align: center;
+.whatNextDiv h2{
+    color: #4D3E42;
+    text-align: justify;
+    font-style: normal;
+    font-family: 'monument_extendedultrabold';
 }
 
 /* ================================== */
 .entryNavbarContainer{
-    background: #0000006b;
+    background: #F5FBEF;
     padding: 15px;
     position: absolute;
     top: 0;
@@ -456,7 +566,7 @@ body{
 
 .entryNavbarContainer img{
     background: transparent;
-    width: 290px;
+    width: 200px;
 }
 
 .footer_email input{
@@ -501,7 +611,7 @@ body{
         height: 550px;
     }
     .entryNavbarContainer img{
-        width: 190px;
+        width: 145px;
     }
     .footer_rightDiv{
         text-align: center;
@@ -515,13 +625,15 @@ body{
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
+    font-family: 'monument_extendedultrabold';
 }
 
 .email-label {
-    font-weight: 600;
+    font-weight: 900;
     font-size: 20px;
-    font-style: italic;
-    color: #fff;
+    /* font-style: italic; */
+    color: #4D3E42;
+    font-family: 'monument_extendedultrabold';
 }
 
 .email-flex {
@@ -542,7 +654,7 @@ body{
 }
 
 .email-submit {
-    background-color: #4b4a4a;
+    background-color: rgba(146, 192, 64, 0.76);
     border: 0ch;
     padding: 10px 20px 10px 20px;
     color: #fff;
@@ -552,7 +664,7 @@ body{
 
 
 input {
-    background-color: #272626;
+    background-color: #92C040;
     border: 0ch;
     padding: 10px;
     width: 80%;
@@ -582,10 +694,11 @@ input {
 @media only screen and (min-width: 992px){
 
 .email-label {
-    font-weight: 600;
-    font-size: 13px;
-    font-style: italic;
-    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    /* font-style: italic; */
+    /* font-family: 'monument_extendedultrabold'; */
+    color: #4D3E42;
 }
 
 }
@@ -638,48 +751,108 @@ input {
 }
 
 .home_Nav .navbar{
-    background: #000 !important;
+    background: #F5FBEF !important;
 }
 
-.home_about_content h2{
+.home_about_content .h2_one{
+    font-family: 'monument_extendedregular';
+    font-weight: 100;
+    font-size: 40px;
+    color: #92C040;
+    line-height: 38px;
+}
+
+.home_about_content .h2_two{
+    font-family: 'monument_extendedultrabold';
     font-weight: 900;
-    font-style: italic;
-    font-size: 1.8em;
+    font-size: 36px;
+    color: #92C040;
+    line-height: 38px;
 }
 
 .buyStripContainer .container{
-    border-bottom: 1px solid #3e3d3d;
-    padding-bottom: 30px;
+    /* border-bottom: 1px solid #3e3d3d; */
+    /* padding-bottom: 30px; */
+    background: transparent;
+}
+.buyStripContainer .container .row{
+    background: transparent;
 }
 
-.specsContainer .container{
-    border-bottom: 1px solid #3e3d3d;
+.buyStripContainer .container .row img{
+    background: transparent;
+    margin-top: -100px;
+    margin-bottom: -15px;
+    width: 390px;
 }
+
+.buyStripContainer .container .row .col-lg-6{
+    background: transparent;
+}
+
+.buyStripContainer .container .row .col-lg-4.content{
+    background: transparent;
+    padding-left: 50px;
+}
+
+.buyStripContainer .container .row .col-lg-4 h2, p, a{
+    background: transparent;
+}
+.buyStripContainer .container .row .col-lg-4 p{
+    margin-bottom: 20px;
+}
+
+.buyStripContainer .container .row .col-lg-4 h2{
+    font-family: 'monument_extendedultrabold';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4D3E42;
+    padding-top: 5px;
+}
+.buyStripContainer .container .row .col-lg-4 a{
+    color: #fff;
+    text-decoration: none;
+    background: #4D3E42;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 15px 70px;
+    border-radius: 5px;
+}
+
+
+/* .specsContainer .container{
+    border-bottom: 1px solid #3e3d3d;
+} */
 .club_contentHead{
     margin-top: 40px;
     margin-bottom: 50px;
 }
 
-.clubContainer .container{
+/* .clubContainer .container{
     border-bottom: 1px solid #3e3d3d;
-}
+} */
 
 .whatNextDiv h2{
     font-size: 1.7em;
     font-weight: 800;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .bathroomContainer .container{
-    border-bottom: 1px solid #3e3d3d;
+    /* border-bottom: 1px solid #3e3d3d; */
+    background: transparent;
 }
 
-.roadMapContainer .container{
+/* .roadMapContainer .container{
     border-bottom: 1px solid #3e3d3d;
-}
+} */
 
 .commmunity_toolsContainer .container{
-    border-bottom: 1px solid #3e3d3d;
+    /* border-bottom: 1px solid #3e3d3d; */
     padding-bottom: 25px 0px;
 }
 
@@ -692,6 +865,14 @@ input {
 
 .home_hero_section{
     text-align: center;
+}
+
+.bear1Image{
+    background: transparent;
+}
+
+.panda-imgDiv{
+    background: transparent;
 }
 
 @media screen and (max-width:991px) {
@@ -721,20 +902,51 @@ input:focus-visible{
 }
 
 @media screen and (max-width:991px) {
-    .dropdown-menu.show{
+    /* .dropdown-menu.show{
         text-align: end;
-    }
+    } */
     .home_Nav .nav-item .nav-link.nav_social{
         display: none;
     }
     .footerIndex .footerIndexCol1{
-        order: 2;
-    }
-    .footerIndex .footerIndexCol2{
         order: 1;
     }
-    .footerIndex .footerIndexCol3{
+    .footerIndex .footerIndexCol2{
         order: 3;
+    }
+    .footerIndex .footerIndexCol3{
+        order: 2;
+    }
+
+    .aboutConatinerDiv .aboutSecCol1{
+        order: 2;
+    }
+
+    .aboutConatinerDiv .aboutSecCol2{
+        order: 1;
+    }
+
+    .buyStripContainer .buyStripCol1{
+        order: 2;
+    }
+
+    .buyStripContainer .buyStripCol2{
+        order: 1;;
+    }
+    .buyStripContainer .container .row img{
+        margin-top: 0px !important;
+    }
+
+    .buyStripContainer{
+        margin-top: 0px !important;
+    }
+
+    .aboutConatinerDiv .container .row .col-lg-6 img{
+        margin-top: 0px !important;
+    }
+
+    .aboutConatinerDiv .container .row .col-lg-6 .aboutContainer_Div{
+        margin-top: 20px;
     }
 
     .home_about_content p{
@@ -778,9 +990,9 @@ input:focus-visible{
     .buy_strip2 p{
         text-align: justify;
     }
-    .club_inner p{
+    /* .club_inner p{
         text-align: justify !important;
-    }
+    } */
     .phase_content{
         text-align: justify;
     }
@@ -789,20 +1001,36 @@ input:focus-visible{
     }
     
 }
-@media screen and (max-width:425px){
-    .mainfooterDiv .row{
-        padding: 5px !important;
+
+@media screen and (max-width:768px){
+    .bear1Image{
+        text-align: center;
     }
-    .club_inner p{
-        text-align: left;
-    padding-left: 20px;
+    .bear1Image img{
+        width: 300px;
     }
-    .club_inner{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    .buyStripContainer .container .row .col-lg-4.content{
+        text-align: center;
+        padding-left: 0%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .buyStripContainer .container .row .col-lg-4 h2{
+        text-align: center;
+        line-height: 32px;
+    }
+    .panda-imgDiv{
+        text-align: center;
+    }
+
+    .buyStripContainer .container .row img{
+        width: 320px;
+    }
+    .home_about_content .h2_one{
+        line-height: 43px;
     }
 }
+
     @media screen and (max-width:525px) {
         .roadMapContentTop h2{
             font-size: 2em;
@@ -815,4 +1043,200 @@ input:focus-visible{
             flex-wrap: wrap;
         }
 
+        .communityRight{
+            flex-wrap: wrap;
+        }
+        .clubImg_div{
+            text-align: center;
+        }
+        .buyStripContainer .container .row .col-lg-4.content{
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+
+        .buyStripContainer .container .row .col-lg-4 a{
+            padding: 15px 40px;
+        }
+        .home_about_content .h2_two{
+            font-size: 36px;
+        }
+        .home_about_content .h2_one{
+            font-size: 36px;
+             line-height: 1;
+        }
+        .buyStripContainer .container .row .col-lg-4.content{
+            padding-left: 0px;
+            text-align: center;
+        }
+
+        .roadMapFirst .h2_two{
+            font-size: 2em !important;
+        }
+
     }
+
+    @media screen and (max-width:425px){
+        .mainfooterDiv .row{
+            padding: 5px !important;
+        }
+        .club_inner p{
+            text-align: left;
+        padding-left: 20px;
+        }
+        .club_inner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .buyStripContainer .container .row .col-lg-4 a{
+            padding: 15px 22px;
+        }
+        .entry_hero_section img{
+            margin-top: 110px !important; 
+        }
+        .entryNavbarContainer{
+            padding: 0px;
+        }
+        .inner_collage{
+            width: 120px !important;
+        }
+    
+    }
+
+    @media screen and (max-width:320px) {
+        .roadMapFirst .h2_two{
+            font-size: 2em !important;
+        }
+    }
+
+    /* ========================================= 22/Nov ========================================== */
+    /* .home_heroDiv {
+        background-image: url('/assets/images/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    } */
+
+
+    .roadMapFirst .h2_one{
+    /* font-family: 'monument_extendedultrabold'; */
+    font-family: 'monument_extendedregular';
+
+        font-size: 2em;
+        color: #4D3E42;
+        line-height: 1px;
+    }
+    .roadMapFirst .h2_two{
+        font-family: 'monument_extendedultrabold';
+            font-size: 2.7em;
+            font-weight: 900;
+            color: #4D3E42;
+            /* line-height: 1px; */
+        }
+        
+
+        .roadmap-phase-contentDiv h5{
+            color: #4D3E42;
+    /* font-family: 'monument_extendedregular'; */
+        }
+
+.aboutConatinerDiv{
+    background: #92C040;
+    margin-top: 40px;
+}
+
+.aboutConatinerDiv .container {
+    background: transparent;
+}
+
+
+.aboutConatinerDiv .container .row{
+    background: transparent;
+}
+
+
+.aboutConatinerDiv .container .row .col-lg-6{
+    background: transparent;
+}
+
+.aboutConatinerDiv .container .row .col-lg-6.aboutRight{
+    display: flex;
+    align-items: center;
+}
+
+.aboutConatinerDiv .container .row .col-lg-6 img{
+    background: transparent;
+    margin-top: -55px;
+    margin-bottom: -23px;
+}
+
+.aboutConatinerDiv .container .row .col-lg-6 .aboutContainer_Div{
+    background: transparent;
+}
+
+.aboutContainer_Div h2{
+    font-size: 28px;
+    color: #4D3E42;
+    font-weight: 900;
+    background: transparent;
+    font-family: 'monument_extendedultrabold';
+
+}
+
+.commmunity_toolsContainer{
+    padding: 20px 0px;
+    margin: 40px 0px;
+}
+
+.commmunity_toolsContainer .container{
+    border-top: 1px solid #4D3E42;
+    border-bottom: 1px solid #4D3E42;
+    padding: 20px 0px;
+}
+
+.communityRight .first_link{
+    color: #fff;
+    background-color: #92C040;
+    padding: 15px 95px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.communityRight .second_link{
+    color: #fff;
+    background-color: #4D3E42;
+    padding: 15px 95px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.teamContainer .container .row .col-lg-6.content_div{
+    display: flex;
+    align-items: center;
+}
+
+.teamContent p{
+    margin-bottom: 80px;
+}
+
+.teamContainer .container{
+    border-bottom: 1px solid #4D3E42;
+}
+
+.whatNextContainer .container .col-lg-6 img{
+    border-radius: 15px;
+}
+
+.whatNextContainer{
+    padding: 15px 0px;
+    border-bottom: 1px solid #4D3E42;
+}
+
+.entry_hero_section img{
+    margin-top: 190px;
+}

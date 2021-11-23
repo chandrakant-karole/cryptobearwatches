@@ -165,7 +165,7 @@ body{
     color: #92C040;
 }
 
-/* ========================================Home ================================================== */
+/* ========================================Home Page================================================== */
 
 .home_Nav{
     background-color: #000;
@@ -583,60 +583,18 @@ body{
     color: #bfc500;
 }
 
-
-/* ============================== */
 .navbar-brand img{
     width: 160px;
 }
 
-@media screen and (max-width:991px) {
-    .entry_page_headDiv .social_div{
-        display: none;
-    }
-    .footer_social_link{
-        /* margin: 20px 0px; */
-        /* width: auto; */
-        padding-left: 10px;
-    }
-    .footer_rightDiv{
-        text-align: center;
-    }
-    .nav_SocialDiv{
-        padding: 10px 0px;
-    }
+.last-line {
+    border-bottom: 15px solid #bfc500;
+    display: block;
+    padding-top: 30px;
+    max-width: 100%;
 }
 
-@media screen and (max-width:425px) {
-    .footer_site_name{
-        font-size: 25px;
-    }
-    .buy_stripDiv{
-        flex-wrap: wrap;
-    }
-
-    .entry_contentDiv{
-        width: auto;
-    }
-    .entry_hero_section{
-        height: 550px;
-    }
-    .entryNavbarContainer img{
-        width: 145px;
-    }
-    .footer_rightDiv{
-        text-align: end;
-    }
-    .email-container{
-        text-align: left !important;
-    }
-    .email-form{
-        width: 100% !important;
-    }
-
-}
-
-
-/* ================================================================================================ */
+/* ========================================= EMAIL ======================================================= */
 .email-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -697,73 +655,8 @@ input {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
   }
-
-@media only screen and (min-width: 992px){
-
-.email-container {
-    padding: 0%;
-    text-align: left;
-}
-}
-
-@media only screen and (min-width: 992px){
-
-.email-label {
-    font-weight: 900;
-    font-size: 16px;
-    color: #4D3E42;
-}
-
-}
-
-@media only screen and (min-width: 992px){
-.email-flex {
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 10px;
-}
-}
-
-@media only screen and (min-width: 992px){
-.email-form {
-    margin: unset;
-}
-}
-
-@media only screen and (min-width: 992px){
-.email-input-text {
-    padding: 2px;
-    padding-left: 10px;
-}
-}
-
-@media only screen and (min-width: 992px){
-.email-submit {
-    padding: 10px;
-    line-height: 0;
-}
-.email-form {
-    margin: unset;
-}
-.email-input-text {
-    padding: 2px;
-    padding-left: 10px;
-}
-}
-
-.last-line {
-    border-bottom: 15px solid #bfc500;
-    display: block;
-    padding-top: 30px;
-    max-width: 100%;
-}
-@media only screen and (min-width: 992px){
-.last-line {
-    padding-top: 0%;
-}
-}
-
-.home_Nav .navbar{
+/* ======================= NAV ============================= */
+  .home_Nav .navbar{
     background: #F5FBEF !important;
     padding: 0px;
 }
@@ -892,22 +785,6 @@ input {
     display: none;
 }
 
-@media screen and (max-width:991px) {
-    .home_Nav .navbar-nav{
-        width: 100%;
-        text-align: end;
-    }
-}
-
-@media screen and (max-width:425px){
-    .buy_stripDiv .buy_strip1, .buy_strip2, .buy_strip3{
-        width: 100%;
-    }
-    .navbar-brand img{
-        width: 110px;
-    }
-}
-
 .entry_hero_section{
     padding: 40px 0px;
 }
@@ -921,8 +798,253 @@ input:focus-visible{
     outline: none;
 }
 
+    /* ========================================= 22/Nov ========================================== */
+
+    .roadMapFirst .h2_one{
+        font-family: 'monument_extendedregular';
+    
+            font-size: 2em;
+            color: #4D3E42;
+            line-height: 1px;
+        }
+        .roadMapFirst .h2_two{
+            font-family: 'monument_extendedultrabold';
+                font-size: 2.7em;
+                font-weight: 900;
+                color: #4D3E42;
+                margin-bottom: 50px;
+            }
+            
+    
+            .roadmap-phase-contentDiv h5{
+                color: #4D3E42;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+            }
+    
+            .roadmap-phase-contentDiv p{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                margin-bottom: 40px;
+            }
+    
+    
+    
+    .aboutConatinerDiv{
+        background: #92C040;
+        margin-top: 40px;
+    }
+    
+    .aboutConatinerDiv .container {
+        background: transparent;
+    }
+    
+    
+    .aboutConatinerDiv .container .row{
+        background: transparent;
+    }
+    
+    
+    .aboutConatinerDiv .container .row .col-lg-6{
+        background: transparent;
+    }
+    
+    .aboutConatinerDiv .container .row .col-lg-6.aboutRight{
+        display: flex;
+        align-items: center;
+    }
+    
+    .aboutConatinerDiv .container .row .col-lg-6 img{
+        background: transparent;
+        margin-top: -55px;
+        margin-bottom: -23px;
+    }
+    
+    .aboutConatinerDiv .container .row .col-lg-6 .aboutContainer_Div{
+        background: transparent;
+        padding: 50px 0px;
+    }
+    
+    .aboutContainer_Div h2{
+        font-size: 28px;
+        color: #4D3E42;
+        font-weight: 900;
+        background: transparent;
+        font-family: 'monument_extendedultrabold';
+        margin-bottom: 15px;
+    }
+    
+    .aboutContainer_Div p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px; 
+    }
+    
+    /* .commmunity_toolsContainer{
+        padding: 20px 0px;
+    } */
+    
+    .commmunity_toolsContainer .container{
+        border-bottom: 1px solid #4D3E42;
+        padding: 50px 0px;
+    }
+    
+    .communityRight .first_link{
+        color: #fff;
+        background-color: #92C040;
+        padding: 15px 95px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    .communityRight .second_link{
+        color: #fff;
+        background-color: #4D3E42;
+        padding: 15px 95px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    .teamContainer .container .row .col-lg-6.content_div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .teamContent p{
+        margin-bottom: 80px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+    }
+    
+    .teamContainer{
+        border-bottom: 1px solid #4D3E42;
+    }
+    
+    .whatNextContainer .container .col-lg-6 img{
+        border-radius: 15px;
+    }
+    
+    .whatNextContainer{
+        padding: 50px 0px;
+        border-bottom: 1px solid #4D3E42;
+    }
+    
+    .entry_hero_section img{
+        margin-top: 190px;
+    }
+    
+    .bathroomRight{
+        background: transparent;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    
+    .specsContentArea p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+    }
+    
+    .club_contentHead p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+    }
+    
+    .clubImg_div{
+        margin-top: -75px;
+        text-align: center;
+    }
+    
+    .roadMapFirst p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+    }
+    
+    
+    .teamContainer{
+        padding: 50px 0px;
+    }
+    
+    .faqContainer{
+        padding: 50px 0px;
+        border-bottom: 1px solid #4D3E42;
+    }
+    
+    .accordion-button:not(.collapsed)::after, .accordion-button::after{
+        filter: brightness(0) invert(1);
+    }
+    
+    .whatNextDiv p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+    }
+
+
+
+/* ========================================================= RESPONSIVE ============================================================= */
+
+@media only screen and (min-width: 992px){
+
+    .email-container {
+        padding: 0%;
+        text-align: left;
+    }
+    .email-label {
+        font-weight: 900;
+        font-size: 16px;
+        color: #4D3E42;
+    }
+    .email-flex {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 10px;
+    }
+    .email-form {
+        margin: unset;
+    }
+    .email-input-text {
+        padding: 2px;
+        padding-left: 10px;
+    }
+    .email-submit {
+        padding: 10px;
+        line-height: 0;
+    }
+    .email-form {
+        margin: unset;
+    }
+    .email-input-text {
+        padding: 2px;
+        padding-left: 10px;
+    }
+    .last-line {
+        padding-top: 0%;
+    }
+}
 
 @media screen and (max-width:991px) {
+    .entry_page_headDiv .social_div{
+        display: none;
+    }
+    .footer_social_link{
+        /* margin: 20px 0px; */
+        /* width: auto; */
+        padding-left: 10px;
+    }
+    .footer_rightDiv{
+        text-align: center;
+    }
+    .nav_SocialDiv{
+        padding: 10px 0px;
+    }
+    .home_Nav .navbar-nav{
+        width: 100%;
+        text-align: end;
+    }
     .home_Nav .nav-item .nav-link.nav_social{
         display: none;
     }
@@ -1014,7 +1136,41 @@ input:focus-visible{
     .entry_para_content{
         text-align: justify;
     }
-    
+}
+
+@media screen and (max-width:425px) {
+    .footer_site_name{
+        font-size: 25px;
+    }
+    .buy_stripDiv{
+        flex-wrap: wrap;
+    }
+
+    .entry_contentDiv{
+        width: auto;
+    }
+    .entry_hero_section{
+        height: 550px;
+    }
+    .entryNavbarContainer img{
+        width: 145px;
+    }
+    .footer_rightDiv{
+        text-align: end;
+    }
+    .email-container{
+        text-align: left !important;
+    }
+    .email-form{
+        width: 100% !important;
+    }
+    .buy_stripDiv .buy_strip1, .buy_strip2, .buy_strip3{
+        width: 100%;
+    }
+    .navbar-brand img{
+        width: 110px;
+    }
+
 }
 
 @media screen and (max-width:768px){
@@ -1157,187 +1313,3 @@ input:focus-visible{
         }
     }
 
-    /* ========================================= 22/Nov ========================================== */
-
-    .roadMapFirst .h2_one{
-    font-family: 'monument_extendedregular';
-
-        font-size: 2em;
-        color: #4D3E42;
-        line-height: 1px;
-    }
-    .roadMapFirst .h2_two{
-        font-family: 'monument_extendedultrabold';
-            font-size: 2.7em;
-            font-weight: 900;
-            color: #4D3E42;
-            margin-bottom: 50px;
-        }
-        
-
-        .roadmap-phase-contentDiv h5{
-            color: #4D3E42;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
-            font-weight: bold;
-        }
-
-        .roadmap-phase-contentDiv p{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
-            margin-bottom: 40px;
-        }
-
-
-
-.aboutConatinerDiv{
-    background: #92C040;
-    margin-top: 40px;
-}
-
-.aboutConatinerDiv .container {
-    background: transparent;
-}
-
-
-.aboutConatinerDiv .container .row{
-    background: transparent;
-}
-
-
-.aboutConatinerDiv .container .row .col-lg-6{
-    background: transparent;
-}
-
-.aboutConatinerDiv .container .row .col-lg-6.aboutRight{
-    display: flex;
-    align-items: center;
-}
-
-.aboutConatinerDiv .container .row .col-lg-6 img{
-    background: transparent;
-    margin-top: -55px;
-    margin-bottom: -23px;
-}
-
-.aboutConatinerDiv .container .row .col-lg-6 .aboutContainer_Div{
-    background: transparent;
-    padding: 50px 0px;
-}
-
-.aboutContainer_Div h2{
-    font-size: 28px;
-    color: #4D3E42;
-    font-weight: 900;
-    background: transparent;
-    font-family: 'monument_extendedultrabold';
-    margin-bottom: 15px;
-}
-
-.aboutContainer_Div p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px; 
-}
-
-/* .commmunity_toolsContainer{
-    padding: 20px 0px;
-} */
-
-.commmunity_toolsContainer .container{
-    border-bottom: 1px solid #4D3E42;
-    padding: 50px 0px;
-}
-
-.communityRight .first_link{
-    color: #fff;
-    background-color: #92C040;
-    padding: 15px 95px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.communityRight .second_link{
-    color: #fff;
-    background-color: #4D3E42;
-    padding: 15px 95px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.teamContainer .container .row .col-lg-6.content_div{
-    display: flex;
-    align-items: center;
-}
-
-.teamContent p{
-    margin-bottom: 80px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-.teamContainer{
-    border-bottom: 1px solid #4D3E42;
-}
-
-.whatNextContainer .container .col-lg-6 img{
-    border-radius: 15px;
-}
-
-.whatNextContainer{
-    padding: 50px 0px;
-    border-bottom: 1px solid #4D3E42;
-}
-
-.entry_hero_section img{
-    margin-top: 190px;
-}
-
-.bathroomRight{
-    background: transparent;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 100px;
-}
-
-.specsContentArea p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-.club_contentHead p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-.clubImg_div{
-    margin-top: -75px;
-    text-align: center;
-}
-
-.roadMapFirst p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-
-.teamContainer{
-    padding: 50px 0px;
-}
-
-.faqContainer{
-    padding: 50px 0px;
-    border-bottom: 1px solid #4D3E42;
-}
-
-.accordion-button:not(.collapsed)::after, .accordion-button::after{
-    filter: brightness(0) invert(1);
-}
-
-.whatNextDiv p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}

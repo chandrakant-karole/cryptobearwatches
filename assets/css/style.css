@@ -1,33 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-/* @font-face {
-    font-family: 'monument_extendedregular';
-    src: url('monumentextended-regular-webfont.woff2') format('woff2'),
-         url('monumentextended-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'monument_extendedultrabold';
-    src: url('monumentextended-ultrabold-webfont.woff2') format('woff2'),
-         url('monumentextended-ultrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-} */
-
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     background-color: #F5FBEF;
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'monument_extendedregular'; */
-    /* font-family: 'monument_extendedultrabold'; */
 }
 body{
     background-color: #F5FBEF;
@@ -90,7 +67,6 @@ body{
 .entry_contentDiv{
     display: flex;
     width: 347px;
-    /* background-color: #000; */
 }
 
 .entry_content{
@@ -101,7 +77,6 @@ body{
 .entry_content h2{
     font-family: 'monument_extendedultrabold';
     color: #4D3E42;
-    /* font-style: italic; */
     font-weight: 900;
     font-size: 1.7em;
 }
@@ -130,7 +105,6 @@ body{
 }
 
 .entry_para_content{
-    /* background-color: #000; */
     font-family: 'monument_extendedregular';
     color: #4D3E42;
     padding: 13px 0px;
@@ -158,14 +132,18 @@ body{
 }
 
 .footer_rightDiv p{
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     margin: 0;
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .footer_rightDiv a{
+    font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 10px;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .footer_site_name{
@@ -198,15 +176,10 @@ body{
 }
 
 .home_Nav .nav-item .nav-link{
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     font-size: 14px;
-    /* font-style: italic; */
-    /* font-weight: 500; */
-    /* letter-spacing: 1.2px; */
-    /* caret-color: transparent; */
-    /* text-align: end; */
     transition: .15s;
-
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
@@ -221,6 +194,21 @@ body{
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
     color: #92C040 !important;
+}
+
+.nav_SocialDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.nav_SocialDiv .nav_social{
+    cursor: pointer;
+    color: #000;
+}
+
+.nav_SocialDiv .nav_social:hover{
+    color: #92C040;
 }
 
 .home_Nav .nav-item .nav-link.nav_social{
@@ -248,12 +236,13 @@ body{
 
 .home_about_content p{
     color: #4D3E42;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .fair_distribution h2{
     font-family: 'monument_extendedultrabold';
-    color: #000;
-    /* font-style: italic; */
+    color: #4D3E42;
     font-weight: 900;
     font-size: 1.6em;
     text-transform: uppercase;
@@ -261,6 +250,9 @@ body{
 
 .fair_distribution p{
     color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 .fair_distribution h4{
     font-size: 1.15em;
@@ -271,10 +263,13 @@ body{
 .fair_dis_rightContent{
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+    margin-top: 36px;
+    background: transparent;
 }
 
 .fair_dis_rightContent p{
+    font-family: 'Montserrat', sans-serif;
     color: grey;
     margin: 0px;
     font-size: .8em;
@@ -285,7 +280,11 @@ body{
 .buyStripContainer{
     background: #92C040;
     margin-top: 50px;
-    padding: 15px;
+}
+
+.mintDiv{
+    background: transparent;
+    padding: 50px 0px;
 }
 
 .buy_stripDiv{
@@ -328,12 +327,11 @@ body{
 }
 
 .specsContentArea h2{
-    color: #000;
+    color: #4D3E42;
     font-size: 1.7em;
     font-weight: 800;
-    /* font-style: italic; */
     font-family: 'monument_extendedultrabold';
-
+    margin-bottom: 15px;
 }
 
 .specsContentArea{
@@ -344,6 +342,13 @@ body{
     height: 100%;
 }
 
+.specsRightArea{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 /* =-------------------------- */
 .club_inner{
     text-align: center;
@@ -351,23 +356,23 @@ body{
 }
 .club_inner p{
     color: #000;
-    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .club_contentHead .h2_one{
-    /* font-family: 'monument_extendedultrabold'; */
     font-family: 'monument_extendedregular';
     color: #92C040;
-    font-size: 36px;
-    /* font-weight: 800; */
+    font-size: 23px;
     line-height: 1px;
 }
 
 .club_contentHead .h2_two{
     font-family: 'monument_extendedultrabold';
     color: #92C040;
-    font-size: 39px;
+    font-size: 23px;
     font-weight: 800;
+    margin-bottom: 0px;
 }
 
 .bathroomContainer{
@@ -395,23 +400,23 @@ body{
     color: #fff;
     font-size: 1.7em;
     font-weight: 800;
-    /* font-style: italic; */
     background: transparent;
     font-family: 'monument_extendedultrabold';
-    /* line-height: 1px; */
 }
 
 .bathroomContent .h2_two{
     color: #92C040;
     font-size: 2.6em;
     font-weight: 800;
-    /* font-style: italic; */
     background: transparent;
     line-height: 39px;
     font-family: 'monument_extendedultrabold';
+    margin-bottom: 50px;
 }
 .bathroomContent p{
     color: #F5FBEF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .bathroomRight img{
@@ -449,15 +454,18 @@ body{
 .coummunityContent h2{
     font-size: 1.7em;
     font-weight: 800;
-    /* font-style: italic; */
     color: #4D3E42;
     font-family: 'monument_extendedultrabold';
+    margin-bottom: 15px;
+}
 
+.coummunityContent p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;    
 }
 
 .communityRight{
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
     height: 100%;
     text-align: center;
@@ -478,20 +486,18 @@ body{
     color: #4D3E42;
     font-size: 1.7em;
     font-weight: 800;
-    /* font-style: italic; */
     font-family: 'monument_extendedultrabold';
 
 }
 
 .teamContent h5{
     color: #000;
-    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .teamContent h5 .team_name{
     color: #92C040;
-    /* font-weight: 900; */
-    /* font-size: 17px; */
     text-transform: uppercase;
 }
 
@@ -504,9 +510,7 @@ body{
 }
 
 .dropdown-item{
-    /* color: aliceblue; */
     font-size: 14px;
-    /* font-style: italic; */
 }
 
 .dropdown-item:hover{
@@ -517,22 +521,24 @@ body{
 .faqHead h2{
     color: #4D3E42;
     font-weight: bolder;
-    /* font-style: italic; */
-    /* text-align: center; */
     font-family: 'monument_extendedultrabold';
     font-size: 28px;
-
+    margin-bottom: 15px;
 }
 
 .accordion-button{
     background: #92C040;
     color: #fff;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .accordion-body{
     background: #4d3e42;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .accordion-button:not(.collapsed){
@@ -588,11 +594,15 @@ body{
         display: none;
     }
     .footer_social_link{
-        margin: 20px 0px;
-        width: auto;
+        /* margin: 20px 0px; */
+        /* width: auto; */
+        padding-left: 10px;
     }
     .footer_rightDiv{
         text-align: center;
+    }
+    .nav_SocialDiv{
+        padding: 10px 0px;
     }
 }
 
@@ -614,7 +624,13 @@ body{
         width: 145px;
     }
     .footer_rightDiv{
-        text-align: center;
+        text-align: end;
+    }
+    .email-container{
+        text-align: left !important;
+    }
+    .email-form{
+        width: 100% !important;
     }
 
 }
@@ -631,7 +647,6 @@ body{
 .email-label {
     font-weight: 900;
     font-size: 20px;
-    /* font-style: italic; */
     color: #4D3E42;
     font-family: 'monument_extendedultrabold';
 }
@@ -679,8 +694,8 @@ input {
 ::placeholder {
     color:#fff;
     font-style: italic;
-    font-size: 12px;
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
   }
 
 @media only screen and (min-width: 992px){
@@ -696,8 +711,6 @@ input {
 .email-label {
     font-weight: 900;
     font-size: 16px;
-    /* font-style: italic; */
-    /* font-family: 'monument_extendedultrabold'; */
     color: #4D3E42;
 }
 
@@ -752,6 +765,11 @@ input {
 
 .home_Nav .navbar{
     background: #F5FBEF !important;
+    padding: 0px;
+}
+
+.navbar-light .navbar-brand{
+    padding: 0px;
 }
 
 .home_about_content .h2_one{
@@ -768,11 +786,10 @@ input {
     font-size: 36px;
     color: #92C040;
     line-height: 38px;
+    margin-bottom: 50px;
 }
 
 .buyStripContainer .container{
-    /* border-bottom: 1px solid #3e3d3d; */
-    /* padding-bottom: 30px; */
     background: transparent;
 }
 .buyStripContainer .container .row{
@@ -783,7 +800,7 @@ input {
     background: transparent;
     margin-top: -100px;
     margin-bottom: -15px;
-    width: 390px;
+    width: 451px;
 }
 
 .buyStripContainer .container .row .col-lg-6{
@@ -797,9 +814,12 @@ input {
 
 .buyStripContainer .container .row .col-lg-4 h2, p, a{
     background: transparent;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 .buyStripContainer .container .row .col-lg-4 p{
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .buyStripContainer .container .row .col-lg-4 h2{
@@ -812,6 +832,7 @@ input {
     text-align: left;
     color: #4D3E42;
     padding-top: 5px;
+    margin-bottom: 30px;
 }
 .buyStripContainer .container .row .col-lg-4 a{
     color: #fff;
@@ -824,35 +845,22 @@ input {
 }
 
 
-/* .specsContainer .container{
-    border-bottom: 1px solid #3e3d3d;
-} */
 .club_contentHead{
     margin-top: 40px;
     margin-bottom: 50px;
 }
 
-/* .clubContainer .container{
-    border-bottom: 1px solid #3e3d3d;
-} */
-
 .whatNextDiv h2{
     font-size: 1.7em;
     font-weight: 800;
-    /* font-style: italic; */
+    margin-bottom: 15px;
 }
 
 .bathroomContainer .container{
-    /* border-bottom: 1px solid #3e3d3d; */
     background: transparent;
 }
 
-/* .roadMapContainer .container{
-    border-bottom: 1px solid #3e3d3d;
-} */
-
 .commmunity_toolsContainer .container{
-    /* border-bottom: 1px solid #3e3d3d; */
     padding-bottom: 25px 0px;
 }
 
@@ -860,7 +868,7 @@ input {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
+    padding: 0px 30px;
 }
 
 .home_hero_section{
@@ -875,6 +883,15 @@ input {
     background: transparent;
 }
 
+.for-mobileClub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.for-mobileClub img{
+    display: none;
+}
+
 @media screen and (max-width:991px) {
     .home_Nav .navbar-nav{
         width: 100%;
@@ -885,6 +902,9 @@ input {
 @media screen and (max-width:425px){
     .buy_stripDiv .buy_strip1, .buy_strip2, .buy_strip3{
         width: 100%;
+    }
+    .navbar-brand img{
+        width: 110px;
     }
 }
 
@@ -901,10 +921,8 @@ input:focus-visible{
     outline: none;
 }
 
+
 @media screen and (max-width:991px) {
-    /* .dropdown-menu.show{
-        text-align: end;
-    } */
     .home_Nav .nav-item .nav-link.nav_social{
         display: none;
     }
@@ -990,9 +1008,6 @@ input:focus-visible{
     .buy_strip2 p{
         text-align: justify;
     }
-    /* .club_inner p{
-        text-align: justify !important;
-    } */
     .phase_content{
         text-align: justify;
     }
@@ -1016,7 +1031,7 @@ input:focus-visible{
         margin-bottom: 25px;
     }
     .buyStripContainer .container .row .col-lg-4 h2{
-        text-align: center;
+        text-align: left;
         line-height: 32px;
     }
     .panda-imgDiv{
@@ -1025,6 +1040,7 @@ input:focus-visible{
 
     .buyStripContainer .container .row img{
         width: 320px;
+        margin-bottom: 0px;
     }
     .home_about_content .h2_one{
         line-height: 43px;
@@ -1098,11 +1114,43 @@ input:focus-visible{
             padding: 0px;
         }
         .inner_collage{
-            width: 120px !important;
+            width: 170px !important;
+        }
+        .mintDiv{
+            padding: 20px;
+            text-align: left;
+        }
+        .for-mobileClub img{
+            display: block;
+            width: 80px;
+            height: auto;
+        }
+        .for-mobileClub{
+            margin-bottom: 20px;
+        }
+        .clubImg_div img{
+            display: none;
+        }
+        .bathroomContainer{
+            padding: 20px 0px;
+        }
+
+        .roadMapContainer .default_show{
+            display: none;
+        }
+        .roadMapContainer .default_hide{
+            display: block !important;
+        }
+        .aboutConatinerDiv .container .row .col-lg-6 .aboutContainer_Div{
+            padding: 0px !important;
+        }
+        .main_Container{
+            padding: 0px 10px;
         }
     
     }
 
+ 
     @media screen and (max-width:320px) {
         .roadMapFirst .h2_two{
             font-size: 2em !important;
@@ -1110,17 +1158,8 @@ input:focus-visible{
     }
 
     /* ========================================= 22/Nov ========================================== */
-    /* .home_heroDiv {
-        background-image: url('/assets/images/banner.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-    } */
-
 
     .roadMapFirst .h2_one{
-    /* font-family: 'monument_extendedultrabold'; */
     font-family: 'monument_extendedregular';
 
         font-size: 2em;
@@ -1132,14 +1171,24 @@ input:focus-visible{
             font-size: 2.7em;
             font-weight: 900;
             color: #4D3E42;
-            /* line-height: 1px; */
+            margin-bottom: 50px;
         }
         
 
         .roadmap-phase-contentDiv h5{
             color: #4D3E42;
-    /* font-family: 'monument_extendedregular'; */
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: bold;
         }
+
+        .roadmap-phase-contentDiv p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+
 
 .aboutConatinerDiv{
     background: #92C040;
@@ -1173,6 +1222,7 @@ input:focus-visible{
 
 .aboutConatinerDiv .container .row .col-lg-6 .aboutContainer_Div{
     background: transparent;
+    padding: 50px 0px;
 }
 
 .aboutContainer_Div h2{
@@ -1181,18 +1231,21 @@ input:focus-visible{
     font-weight: 900;
     background: transparent;
     font-family: 'monument_extendedultrabold';
-
+    margin-bottom: 15px;
 }
 
-.commmunity_toolsContainer{
+.aboutContainer_Div p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+}
+
+/* .commmunity_toolsContainer{
     padding: 20px 0px;
-    margin: 40px 0px;
-}
+} */
 
 .commmunity_toolsContainer .container{
-    border-top: 1px solid #4D3E42;
     border-bottom: 1px solid #4D3E42;
-    padding: 20px 0px;
+    padding: 50px 0px;
 }
 
 .communityRight .first_link{
@@ -1222,9 +1275,11 @@ input:focus-visible{
 
 .teamContent p{
     margin-bottom: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
-.teamContainer .container{
+.teamContainer{
     border-bottom: 1px solid #4D3E42;
 }
 
@@ -1233,10 +1288,56 @@ input:focus-visible{
 }
 
 .whatNextContainer{
-    padding: 15px 0px;
+    padding: 50px 0px;
     border-bottom: 1px solid #4D3E42;
 }
 
 .entry_hero_section img{
     margin-top: 190px;
+}
+
+.bathroomRight{
+    background: transparent;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.specsContentArea p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.club_contentHead p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.clubImg_div{
+    margin-top: -75px;
+    text-align: center;
+}
+
+.roadMapFirst p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+
+.teamContainer{
+    padding: 50px 0px;
+}
+
+.faqContainer{
+    padding: 50px 0px;
+    border-bottom: 1px solid #4D3E42;
+}
+
+.accordion-button:not(.collapsed)::after, .accordion-button::after{
+    filter: brightness(0) invert(1);
+}
+
+.whatNextDiv p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }

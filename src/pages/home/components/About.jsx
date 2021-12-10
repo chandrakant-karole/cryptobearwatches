@@ -1,9 +1,19 @@
 import React from 'react'
+
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import AngelBear from '../../../assets/images/1 10.jpg'
 import ArmyBear from '../../../assets/images/1 12.jpg'
 import SwagBear from '../../../assets/images/1 11.jpg'
 import CapBear from '../../../assets/images/1 9.jpg'
+import AboutSlider from './AboutSlider'
+// import Swiper JS
+// import Swiper from 'swiper';
+// import Swiper styles
+// import 'swiper/css';
+
+
+
+
 export default function About() {
     return (
         <>
@@ -34,38 +44,21 @@ export default function About() {
                                         </div>
                                         <div className="SecondRow">
                                             <Image className="inner_collage" src={SwagBear} alt="CryptoBear Watch Club" fluid />
-                                            <Image className="inner_collage" src={CapBear} alt="CryptoBear Watch Club" fluid/>
+                                            <Image className="inner_collage" src={CapBear} alt="CryptoBear Watch Club" fluid />
                                         </div>
                                     </div>
 
-                                    <div style={{ position: "relative" }}>
-                                        <div className="swiper d-block d-sm-none">
-                                            {/* <!-- Additional required wrapper --> */}
-                                            <div className="swiper-wrapper">
-                                                {/* <!-- Slides --> */}
 
-                                                <div className="swiper-slide">
-                                                    <Image className="" src={AngelBear} alt="CryptoBear Watch Club" fluid/>
-                                                </div>
-                                                <div className="swiper-slide">
-                                                    <Image className="" src={ArmyBear} alt="CryptoBear Watch Club" fluid/>
-                                                </div>
-                                                <div className="swiper-slide">
-                                                    <Image className="" src={SwagBear} alt="CryptoBear Watch Club" fluid/>
-                                                </div>
-                                                <div className="swiper-slide">
-                                                    <Image className="" src={CapBear} alt="CryptoBear Watch Club" fluid/>
-                                                </div>
-                                            </div>
-                                            {/* <!-- If we need pagination --> */}
+                                    <AboutSlider />
 
-                                        </div>
-                                        <div className="swiper-pagination d-block d-sm-none"></div>
-                                    </div>
+
+
                                 </div>
                             </Col>
+
                         </Row>
                     </Container>
+
                 </div>
 
                 {/* <!-- </div> --> */}

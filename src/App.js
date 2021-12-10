@@ -5,12 +5,14 @@ import './assets/Fonts/MONUMENT-Webfont/stylesheet.css'
 
 import Header from './common/Header';
 import Home from '../src/pages/home/Home'
+import Footer from './common/Footer';
 
 function App() {
   return (
     <>
     <Header/>
     <Home/>
+    <Footer/>
     </>
   );
 }

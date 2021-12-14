@@ -18,7 +18,9 @@ export default function Mint() {
                                     <h2 className="mob-cent mob-cent-">MINT</h2>
                                     <h2 className="mob-cent">A BEAR</h2>
                                     <p className="mab">The whitelist sale will begin towards the end of December 2021 for 24 hours, right before the public sale. We will follow a Dutch auction with prices starting at 3 ETH and reducing by 0.1 ETH every 5 minutes with the floor at 0.5 ETH.</p>
-                                    {/* <!--<a href="#">MINT A BEAR</a>--> */}
+                                    <div className='innerMintDiv'>
+                                        <a href="#">MINT A BEAR</a>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>

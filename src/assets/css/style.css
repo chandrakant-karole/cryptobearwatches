@@ -286,6 +286,11 @@ body{
     padding: 50px 0px;
 }
 
+.buyStripCol2 .mintDiv .innerMintDiv{
+    background: transparent;
+    text-align: left;
+}
+
 .buy_stripDiv{
     background-color: #bfc500;
     display: flex;
@@ -1107,6 +1112,9 @@ input:focus-visible{
 
 
 @media screen and (max-width:991px) {
+    .buyStripCol2 .mintDiv .innerMintDiv{
+        text-align: center;
+    }
     .home_Nav .nav-item .nav-link{
         text-indent: 18px;
     }
